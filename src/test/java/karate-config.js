@@ -7,7 +7,7 @@ function fn() {
     var config = { // base config JSON
         appId: 'my.app.id',
         appSecret: 'my.secret',
-        someUrlBase: 'https://some-host.com/v1/auth/',
+        baseUrl: 'https://petstore.swagger.io/v2',
         anotherUrlBase: 'https://another-host.com/v1/'
     };
     if (env == 'stage') {
